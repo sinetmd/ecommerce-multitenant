@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from "./navbar";
+import Link from "next/link";
+
 import {
   Sheet,
   SheetContent,
@@ -7,7 +7,6 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
-import Link from "next/link";
 
 interface NavbarItem {
   href: string;
